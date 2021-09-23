@@ -1,6 +1,6 @@
 import { Dialog, Transition } from '@headlessui/react';
 import React, { FC, Fragment, useEffect, useRef, useState } from 'react';
-import { AUTH_HEADER, CLIENT_ID, GRAPHQL_URL } from '../constants';
+import { AUTH_HEADER, CLIENT_ID, GRAPHQL_URL } from './constants';
 
 function App() {
     const amountRef = useRef<HTMLInputElement>(null);
